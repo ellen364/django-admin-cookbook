@@ -272,5 +272,5 @@ class OriginAdmin(admin.ModelAdmin):
 
 
 @admin.register(AllEntity)
-class AllEntiryAdmin(admin.ModelAdmin):
+class AllEntityAdmin(admin.ModelAdmin):
     list_display = ("id", "name")

@@ -13,7 +13,7 @@ you will get an error like this::
 
     raise AlreadyRegistered('The model %s is already registered' % model.__name__)
 
-THe solution is to sublass the :code:`Hero` model as a ProxyModel.::
+The solution is to subclass the :code:`Hero` model as a ProxyModel.::
 
     # In models.py
     class HeroProxy(Hero):

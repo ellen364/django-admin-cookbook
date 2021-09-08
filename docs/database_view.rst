@@ -35,7 +35,7 @@ Then you add a :code:`managed=False` model::
 And add it to admin.::
 
     @admin.register(AllEntity)
-    class AllEntiryAdmin(admin.ModelAdmin):
+    class AllEntityAdmin(admin.ModelAdmin):
         list_display = ("id", "name")
 
 And your admin looks like this
